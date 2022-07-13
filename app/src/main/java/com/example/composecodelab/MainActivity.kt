@@ -42,10 +42,22 @@ private fun Greetings(names: List<String> = List(1000){ "$it" }) {
 }
 
 @Composable
+private fun MyApp() {
+    var shouldShowOnboarding by remember { mutableStateOf(true) }
+
+    if (shouldShowOnboarding) {
+        OnboardingScreen(onContinueClicked = { shouldShowOnboarding = false })
+    } else {
+        Greetings()
+    }
+}
+
+@Composable
 fun Greeting(name: String) {
 
     // 'stateOf' triggers recomposition to update ui
     // 'remember' protects value from recomposition
+    // 'rememberSaveable' can be used to survive configuration changes
     val expanded = remember { mutableStateOf(false) }
 
     val extraPadding = if (expanded.value) 48.dp else 0.dp
@@ -104,16 +116,5 @@ fun OnboardingScreen(onContinueClicked: () -> Unit) {
 fun OnboardingPreview() {
     ComposeCodelabTheme {
         OnboardingScreen() {}
-    }
-}
-
-@Composable
-private fun MyApp() {
-    var shouldShowOnboarding by remember { mutableStateOf(true) }
-
-    if (shouldShowOnboarding) {
-        OnboardingScreen(onContinueClicked = { shouldShowOnboarding = false })
-    } else {
-        Greetings()
     }
 }
