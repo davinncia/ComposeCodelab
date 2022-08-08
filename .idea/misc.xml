@@ -3,11 +3,27 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="../../../../../layout/compose-model-1657716882021.xml" value="0.24579510703363913" />
+        <entry key="../../../../../layout/compose-model-1658221450475.xml" value="0.2609625668449198" />
+        <entry key="../../../../../layout/compose-model-1658230490179.xml" value="0.335" />
+        <entry key="../../../../../layout/compose-model-1658237826268.xml" value="0.306951871657754" />
+        <entry key="../../../../../layout/compose-model-1658298090119.xml" value="0.306951871657754" />
+        <entry key="../../../../../layout/compose-model-1658322153252.xml" value="0.27280405405405406" />
+        <entry key="../../../../../layout/compose-model-1658323051816.xml" value="0.306951871657754" />
+        <entry key="../../../../../layout/compose-model-1658385033525.xml" value="0.2" />
+        <entry key="../../../../../layout/compose-model-1658404908447.xml" value="0.2" />
+        <entry key="../../../../../layout/compose-model-1659681937645.xml" value="0.23636363636363636" />
+        <entry key="../../../../../layout/compose-model-1659683636835.xml" value="0.165" />
+        <entry key="../../../../../layout/compose-model-1659691903819.xml" value="0.23636363636363636" />
+        <entry key="../../../../../layout/compose-model-1659706461195.xml" value="0.23636363636363636" />
+        <entry key="../../../../../layout/compose-model-1659949326055.xml" value="0.27280405405405406" />
+        <entry key="../../../../../layout/compose-model-1659962282811.xml" value="0.11236933797909408" />
         <entry key="../../../../layout/compose-model-1657546009422.xml" value="0.37922297297297297" />
+        <entry key="app/src/main/res/drawable/gradient.xml" value="0.122" />
       </map>
     </option>
   </component>
-  <component name="ProjectRootManager" version="2" languageLevel="JDK_1_8" default="true" project-jdk-name="1.8" project-jdk-type="JavaSDK">
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" project-jdk-name="1.8" project-jdk-type="JavaSDK">
     <output url="file://$PROJECT_DIR$/build/classes" />
   </component>
   <component name="ProjectType">
